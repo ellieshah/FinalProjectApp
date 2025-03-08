@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.css'; // Assuming you have a CSS file for styling
+import logo from './logo.png'; // Replace with your logo path
 
 const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <img src="/path/to/logo.png" alt="Logo" />
+                <img src={logo} alt="Little Lemon Logo" width="150" />
             </div>
             <nav className="navigation">
                 <ul>
