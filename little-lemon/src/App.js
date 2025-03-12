@@ -7,8 +7,6 @@ function App() {
     <nav className="app-container">
       <Header />
       <main>
-        <h2>Welcome to Little Lemon</h2>
-        <p>Enjoy fresh Mediterranean flavors!</p>
       </main>
       <footer>
         <p>&copy; 2025 Little Lemon Restaurant</p>
