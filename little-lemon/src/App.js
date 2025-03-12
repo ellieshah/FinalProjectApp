@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <nav className="App-container">
-      <header>
-        <h1>Little Lemon</h1>
-      </header>
+    <nav className="app-container">
+      <Header />
       <main>
         <h2>Welcome to Little Lemon</h2>
         <p>Enjoy fresh Mediterranean flavors!</p>
