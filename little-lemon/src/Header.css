@@ -1,0 +1,51 @@
+/* src/Header.css */
+.header {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Logo on left, nav on right */
+    align-items: center; /* Vertically center items */
+    background-color: #f8c146; /* Little Lemon yellow, adjust per mockup */
+    padding: 10px 20px; /* Add some padding */
+  }
+  
+  .logo img {
+    width: 150px; /* Matches your width attribute */
+  }
+  
+  .navigation ul {
+    display: flex; /* Flexbox for horizontal nav items */
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin: 0 15px; /* Space between nav items */
+  }
+  
+  .navigation a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark color, adjust per mockup */
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    color: #fff; /* White on hover, adjust per design */
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack logo and nav on small screens */
+      padding: 10px;
+    }
+  
+    .navigation ul {
+      flex-direction: column; /* Stack nav items vertically */
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .navigation li {
+      margin: 10px 0; /* Vertical spacing */
+    }
+  }
