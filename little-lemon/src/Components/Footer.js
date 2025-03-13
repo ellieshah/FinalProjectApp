@@ -1,6 +1,5 @@
 import React from 'react';
-import './Footer.css'; // You'll need to create this CSS file
-import FooterLogo from './FooterLogo.png'; // Update path to your logo
+import './Footer.css'; 
 
 // Import social media icons from a library like react-icons
 // npm install react-icons --save
@@ -12,7 +11,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Logo Section */}
         <div className="footer-logo">
-          <img src={FooterLogo} alt="Company Logo" />
+          <img src="./FooterLogo.png" alt="Little Lemon Logo" />
         </div>
 
         {/* Doormat Navigation */}
