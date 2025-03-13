@@ -7,11 +7,11 @@ import Main from './Components/Main';
 
 function App() {
   return (
-    <nav className="app-container">
+    <div className="app-container">
       <Header />
       <Main />
       <Footer />
-    </nav>
+    </div>
   );
 }
 
